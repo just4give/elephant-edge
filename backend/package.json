@@ -1,0 +1,28 @@
+{
+  "name": "iotconnect-device-sdk",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "IoT connect SDK for D2C and C2D communication"
+  ],
+  "author": "SOFTWEB SOLUTIONS<admin@softwebsolutions.com> (https://www.softwebsolutions.com)",
+  "license": "MIT",
+  "description": "SDK for D2C and C2D communication",
+  "private": true,
+  "devDependencies": {
+    "async": "^2.0.0",
+    "json-query": "^2.2.2",
+    "memory-cache": "^0.2.0",
+    "mqtt": "^1.14.1",
+    "request": "^2.85.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "fs-extra": "^7.0.1",
+    "geojson-geometries-lookup": "^0.5.0",
+    "iotconnect-sdk": "file:iotconnect-sdk"
+  }
+}
